@@ -8,9 +8,9 @@ import random
 
 
 # Import roof model and classes
-from roof_models.base_roof import BaseRoof, Node, Edge, Face, NodeType, EdgeType
-from roof_models.gable_roof import GableRoof
-from roof_models.hip_roof import HipRoof
+from models.base_roof import BaseRoof, Node, Edge, Face, NodeType, EdgeType
+from models.gable_roof import GableRoof
+from models.hip_roof import HipRoof
 
 
 # Custom JSON encoer for Enum
@@ -174,5 +174,5 @@ def create_gmn_dataset(output_dir, num_samples=100):
 
 # Usage example
 if __name__ == "__main__":
-    output_dir = "data/gmn_dataset"
+    output_dir = "data"
     create_gmn_dataset(output_dir, num_samples=200)

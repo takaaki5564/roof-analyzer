@@ -1,4 +1,4 @@
-from roof_models.base_roof import BaseRoof, Node, Edge, Face, NodeType, EdgeType
+from models.base_roof import BaseRoof, Node, Edge, Face, NodeType, EdgeType
 import numpy as np
 import math
 
