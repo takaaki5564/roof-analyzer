@@ -676,9 +676,9 @@ def plot_training_curves(train_losses, val_losses, position_losses, type_losses,
 
 
 if __name__ == "__main__":
-    train_data_path = "data/train_dataset.json"
-    test_data_path = "data/test_dataset.json"
-    output_dir = "models/gmn_model"
+    train_data_path = "dataset/train_dataset.json"
+    test_data_path = "dataset/test_dataset.json"
+    output_dir = "gmn/gmn_model"
     
     # モデル構成のカスタマイズ（必要に応じて）
     custom_config = {

@@ -369,9 +369,9 @@ def visualize_prediction(original_top_view, predicted_top_view, save_path=None):
 def main():
     """メイン実行関数"""
     # 設定
-    model_path = "models/gmn_model/best_model.pt"  # または "final_model.pt"
-    config_path = "models/gmn_model/config.json"
-    test_data_path = "data/test_dataset.json"
+    model_path = "gmn/gmn_model/best_model.pt"  # または "final_model.pt"
+    config_path = "gmn/gmn_model/config.json"
+    test_data_path = "dataset/test_dataset.json"
     output_dir = "predictions"
     
     # 出力ディレクトリ作成

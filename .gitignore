@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyTorch/PyTorch Geometric
+*.pt
+*.pth
+*.onnx
+
+# Virtual environments
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.env
+.venv
+roof/
+.roof
+
+# IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Generated datasets and results
+data/
+!data/.gitkeep
+!gmn/data/.gitkeep
+results/
+!results/.gitkeep
+checkpoints/
+!checkpoints/.gitkeep
+logs/
+!logs/.gitkeep
+
+# Visualization outputs
+*.png
+*.jpg
+*.jpeg
+*.pdf
+*.svg
+!examples/images/*.png
+!documentation/images/*.png
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+*.ipynb
+
+# CSV & other data files
+*.csv
+*.xlsx
+*.xls
+*.h5
+*.hdf5
+*.npy
+*.npz
+!examples/data/*.csv
+
+# specific_directory/
+predictions/
+gmn/models
+dataset/
