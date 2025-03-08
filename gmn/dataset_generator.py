@@ -174,5 +174,5 @@ def create_gmn_dataset(output_dir, num_samples=100):
 
 # Usage example
 if __name__ == "__main__":
-    output_dir = "data"
+    output_dir = "dataset"
     create_gmn_dataset(output_dir, num_samples=200)

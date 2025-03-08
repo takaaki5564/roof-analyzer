@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from models.base_roof import NodeType, EdgeType
 
 # Import our model
-from gmn_model import GraphMatchingNetwork, convert_view_to_torch_geometric
+from gmn.gmn_model import GraphMatchingNetwork, convert_view_to_torch_geometric
 
 
 def load_model(model_path, config_path=None):
